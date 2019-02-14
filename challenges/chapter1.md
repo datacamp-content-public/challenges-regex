@@ -117,3 +117,53 @@ l1:
 n:
   - '!expr g.rand_int(hi=5)'
 ```
+
+---
+
+## regex
+
+```yaml
+type: BlanksChallenge
+key: 2ab52990f2
+```
+
+`@context`
+#import re and split with it
+
+`@code1`
+```{python}
+import __
+```
+
+`@code2`
+```{python}
+# faites de la phrase Ecrivons des regex! Ce sera très pratique. Espérons-le du moins. Pouvez vous trouver 4 phrases, ou alors tous les 22 mots? une string
+my_string = "__"
+```
+
+`@code3`
+```{python}
+# trouvez une regex qui vous permettra de couper cette string à chaque fin de phrase
+sentence_endings = r"___"
+```
+
+`@code4`
+```{python}
+# splittez
+print(re.split(___, my_string))
+```
+
+`@pre_challenge_code`
+```{python}
+
+```
+
+`@variables`
+```yaml
+
+```
+
+`@distractors`
+```yaml
+
+```
